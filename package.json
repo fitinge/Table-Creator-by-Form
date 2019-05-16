@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@rocketseat/unform": "^1.0.1",
+    "@rocketseat/unform": "^1.3.0",
     "lodash": "^4.17.11",
     "react": "^16.8.6",
     "react-copy-to-clipboard": "^5.0.1",
