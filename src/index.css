@@ -7,7 +7,89 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  outline: 0;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  height: 48px;
+  padding: 0 20px;
+  background: #fff;
+  font-size: 18px;
+  color: #444;
+  border-radius: 3px;
+  border: 0;
+}
+
+select {
+  height: 48px;
+  padding: 0 20px;
+  background: #fff;
+  font-size: 18px;
+  color: #444;
+  border-radius: 3px;
+  border: 0;
+  margin-left: 10px;
+}
+
+button {
+  height: 48px;
+  padding: 0 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #4465b7;
+  color: #fff;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+span {
+  color: #f00;
+}
+.content {
+  display: flex;
+  background: #21232c;
+}
+#form {
+  flex: 1;
+  background: #282a35;
+  box-shadow: 1px 0px;
+}
+.listFields {
+  display: flex;
+  flex-direction: column;
+}
+.listFields li {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+#form form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+#sql {
+  display: flex;
+  flex: 1;
+  /* height: 100vh; */
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
 }
